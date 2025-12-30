@@ -1,0 +1,51 @@
+/* brand */
+.brand {
+    display: flex;
+    gap: 8px;
+    font-weight: 700;
+}
+
+.brand-mark {
+    color: var(--accent);
+}
+
+/* nav */
+.nav {
+    display: flex;
+    gap: 16px;
+}
+
+.nav a {
+    padding: 8px 10px;
+    border-radius: 999px;
+    font-size: 14px;
+    color: rgba(243, 233, 221, 0.8);
+}
+
+.nav a.active,
+.nav a:hover {
+    color: var(--text);
+    background: rgba(201, 163, 106, 0.12);
+}
+
+/* buttons */
+.btn {
+    padding: 10px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: rgba(201, 163, 106, 0.15);
+    color: var(--text);
+    cursor: pointer;
+}
+
+.btn.ghost {
+    background: transparent;
+}
+
+/* cards */
+.card {
+    background: var(--paper);
+    border-radius: var(--radius);
+    padding: 16px;
+    box-shadow: var(--shadow);
+}

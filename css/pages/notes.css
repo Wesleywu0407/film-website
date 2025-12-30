@@ -1,0 +1,29 @@
+.roll-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.roll {
+    background: var(--paper-soft);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.roll-head {
+    padding: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.roll-body {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.roll-block {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    border-radius: 14px;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Film Notes — 2nd eyes</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-inner">
+                <a class="brand" href="index.html">
+                    <span class="brand-mark">2nd</span
+                    ><span class="brand-name">eyes</span>
+                </a>
+
+                <nav class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a class="active" href="notes.html">Film Notes</a>
+                    <a href="about.html">About</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!-- PAGE HEADER (unique to Notes) -->
+            <section class="page-head">
+                <div class="container">
+                    <h1>Film Notes</h1>
+                    <p class="muted">
+                        One roll, one story — settings, mistakes, and keepers.
+                    </p>
+                </div>
+            </section>
+
+            <!-- ROLL LIST (unique to Notes) -->
+            <section class="section">
+                <div class="container">
+                    <div class="roll-list">
+                        <article class="roll" id="roll-01">
+                            <header class="roll-head">
+                                <h2>Roll #01 — Sydney</h2>
+                                <p class="muted">
+                                    Fuji 400 • Olympus • ISO 400 • Dec 2025
+                                </p>
+                            </header>
+
+                            <div class="roll-body">
+                                <div class="roll-block">
+                                    <h3>What I tried</h3>
+                                    <ul>
+                                        <li>
+                                            Meter for highlights near sunset
+                                        </li>
+                                        <li>
+                                            Backlight portraits with slight
+                                            overexposure
+                                        </li>
+                                        <li>
+                                            One subject per frame (slower
+                                            shooting)
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="roll-block">
+                                    <h3>Mistakes</h3>
+                                    <ul>
+                                        <li>Underexposed 2 frames in shade</li>
+                                        <li>
+                                            Focus missed on 1 portrait (too
+                                            rushed)
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="roll-block">
+                                    <h3>Keepers</h3>
+                                    <p class="muted">
+                                        Choose 3–8 photos later (we’ll connect
+                                        to Gallery with JS next step).
+                                    </p>
+                                    <a class="btn small" href="gallery.html"
+                                        >See photos</a
+                                    >
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="roll" id="roll-02">
+                            <header class="roll-head">
+                                <h2>Roll #02 — Brisbane</h2>
+                                <p class="muted">
+                                    Kodak Gold 200 • Canon • ISO 200 • Dec 2025
+                                </p>
+                            </header>
+
+                            <div class="roll-body">
+                                <div class="roll-block">
+                                    <h3>Light notes</h3>
+                                    <p class="muted">
+                                        Morning shadows were harsh. Next time
+                                        I’ll shoot closer to golden hour.
+                                    </p>
+                                </div>
+
+                                <div class="roll-block">
+                                    <h3>Next roll plan</h3>
+                                    <ul>
+                                        <li>Try +1 exposure indoors</li>
+                                        <li>Use slower pace, fewer shots</li>
+                                        <li>Write settings after each scene</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <p class="muted">
+                    © <span id="year"></span> 2nd eyes • Film Notes
+                </p>
+            </div>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>
