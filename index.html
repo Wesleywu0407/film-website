@@ -1,91 +1,115 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>2nd eyes — Film Diary</title>
-  <link rel="stylesheet" href="css/style.css" />
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>2nd eyes — Film Diary</title>
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/layout.css" />
+        <link rel="stylesheet" href="css/components.css" />
+        <link rel="stylesheet" href="css/pages/home.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-inner">
+                <a class="brand" href="index.html">
+                    <span class="brand-mark">2nd</span
+                    ><span class="brand-name">eyes</span>
+                </a>
 
-</head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html">
-        <span class="brand-mark">2nd</span><span class="brand-name">eyes</span>
-      </a>
+                <nav class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="html/gallery.html">Gallery</a>
+                    <a href="html/notes.html">Film Notes</a>
+                    <a href="html/about.html">About</a>
+                </nav>
+            </div>
+        </header>
 
-      <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="html/gallery.html">Gallery</a>
-        <a href="html/notes.html">Film Notes</a>
-        <a href="html/about.html">About</a>
-      </nav>
-    </div>
-  </header>
+        <main>
+            <!-- HERO (unique to Home) -->
+            <section class="hero">
+                <div class="container hero-inner">
+                    <div class="hero-text">
+                        <h1>Film photos & small stories.</h1>
+                        <p class="muted">
+                            A personal film diary — where I’ve been, and how it
+                            felt.
+                        </p>
+                        <div class="hero-actions">
+                            <a class="btn" href="html/gallery.html"
+                                >View Gallery</a
+                            >
+                            <a class="btn ghost" href="html/notes.html"
+                                >Read Film Notes</a
+                            >
+                        </div>
+                    </div>
 
-  <main>
-    <!-- HERO (unique to Home) -->
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <h1>Film photos & small stories.</h1>
-          <p class="muted">A personal film diary — where I’ve been, and how it felt.</p>
-          <div class="hero-actions">
-            <a class="btn" href="gallery.html">View Gallery</a>
-            <a class="btn ghost" href="notes.html">Read Film Notes</a>
-          </div>
-        </div>
+                    <!-- FEATURED ROLL CARD (unique to Home) -->
+                    <aside class="featured-roll">
+                        <div class="featured-top">
+                            <span class="tag">Featured Roll</span>
+                            <span class="tag">ISO 400</span>
+                        </div>
+                        <h2 class="featured-title">Sydney — quiet arvo</h2>
+                        <p class="muted featured-sub">
+                            Kodak • Canon autoboyminT • Dec 2025
+                        </p>
+                        <a class="link" href="html/notes.html#roll-01"
+                            >Open this roll →</a
+                        >
+                    </aside>
+                </div>
+            </section>
 
-        <!-- FEATURED ROLL CARD (unique to Home) -->
-        <aside class="featured-roll">
-          <div class="featured-top">
-            <span class="tag">Featured Roll</span>
-            <span class="tag">ISO 400</span>
-          </div>
-          <h2 class="featured-title">Sydney — quiet arvo</h2>
-          <p class="muted featured-sub">Kodak • Canon autoboyminT • Dec 2025</p>
-          <a class="link" href="html/notes.html#roll-01">Open this roll →</a>
-        </aside>
-      </div>
-    </section>
+            <!-- QUICK START (unique to Home) -->
+            <section class="section">
+                <div class="container">
+                    <div class="section-head">
+                        <h2>Start here</h2>
+                        <p class="muted">Pick what you want to see today.</p>
+                    </div>
 
-    <!-- QUICK START (unique to Home) -->
-    <section class="section">
-      <div class="container">
-        <div class="section-head">
-          <h2>Start here</h2>
-          <p class="muted">Pick what you want to see today.</p>
-        </div>
+                    <div class="cards">
+                        <article class="card">
+                            <h3>Latest shots</h3>
+                            <p class="muted">
+                                Jump into the newest photos in the gallery.
+                            </p>
+                            <a class="btn small" href="html/gallery.html#latest"
+                                >Go</a
+                            >
+                        </article>
 
-        <div class="cards">
-          <article class="card">
-            <h3>Latest shots</h3>
-            <p class="muted">Jump into the newest photos in the gallery.</p>
-            <a class="btn small" href="gallery.html#latest">Go</a>
-          </article>
+                        <article class="card">
+                            <h3>Roll stories</h3>
+                            <p class="muted">
+                                One roll, one story. Lessons + keepers.
+                            </p>
+                            <a class="btn small" href="html/notes.html">Go</a>
+                        </article>
 
-          <article class="card">
-            <h3>Roll stories</h3>
-            <p class="muted">One roll, one story. Lessons + keepers.</p>
-            <a class="btn small" href="notes.html">Go</a>
-          </article>
+                        <article class="card">
+                            <h3>My gear list</h3>
+                            <p class="muted">
+                                Cameras, film stocks, and what I learned.
+                            </p>
+                            <a class="btn small" href="html/about.html#gear">Go</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-          <article class="card">
-            <h3>My gear list</h3>
-            <p class="muted">Cameras, film stocks, and what I learned.</p>
-            <a class="btn small" href="about.html#gear">Go</a>
-          </article>
-        </div>
-      </div>
-    </section>
-  </main>
+        <footer class="footer">
+            <div class="container">
+                <p class="muted">
+                    © <span id="year"></span> 2nd eyes • Film diary
+                </p>
+            </div>
+        </footer>
 
-  <footer class="footer">
-    <div class="container">
-      <p class="muted">© <span id="year"></span> 2nd eyes • Film diary</p>
-    </div>
-  </footer>
-
-  <script src="app.js"></script>
-</body>
+        <script src="app.js"></script>
+    </body>
 </html>
